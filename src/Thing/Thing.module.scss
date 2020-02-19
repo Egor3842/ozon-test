@@ -1,0 +1,65 @@
+.container{
+    position: relative;
+    height: 40px;
+    width: 1024px;
+}
+.image{
+    position: absolute;
+    left:100px;
+    top:-4px;
+    height: 67px;
+    width: 43px;
+}
+label input {
+  display: none;
+}
+label span {
+  height: 12px;
+  width: 12px;
+  border: 1px solid gray;
+  display: inline-block;
+  position: relative;
+  background-color:#FFF;
+  border-radius:2px;
+  padding:3px;
+  background-color: blue;
+}
+[type=checkbox]:checked + span:before {
+  content: '\2714';
+  font-size:17px;
+  color:white;
+  position: absolute;
+  top:-5px;
+  left:2px;
+}
+  .description{
+      position: absolute;
+      font-size: 16px;
+line-height: 20px;
+top:10px;
+      left: 200px;
+      font-weight: 500;
+  }
+  .price{
+      position: absolute;
+      left:620px;
+      top:10px;
+      font-size: 20px;
+      font-weight: 600;
+line-height: 26px;
+  }
+  .doubleprice{
+    position: absolute;
+      left:608px;
+      top:10px;
+      font-size: 20px;
+      font-weight: 600;
+line-height: 26px;
+  }
+  .devide{
+    height: 1px;
+    width: 696px;
+    background-color: rgba(0, 26, 52, 0.163844);
+    position: absolute;
+    top:90px;
+  }

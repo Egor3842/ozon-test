@@ -1,0 +1,85 @@
+.container{
+    position: relative;
+    left: 10px;
+    top:160px;
+    height: 384px;
+    width: 216px;
+    float:left; 
+}
+
+
+.img{
+    width: 200px;
+    height: 200px;
+}
+
+.sail{
+    height: 20px;
+    width: 39px;
+    background: #F91155;
+    border-radius: 3px;
+    position: absolute;
+    top:180px;
+}
+.price{
+    font-size: 20px;
+line-height: 26px;
+font-weight: 700;
+}
+.lowprice{
+    font-size: 20px;
+line-height: 26px;
+font-weight: 700;
+color: #F91155;
+}
+.oldprice{
+    text-decoration:line-through;
+    font-size: 12px;
+line-height: 16px;
+color: #001A34;
+}
+.description{font-size: 16px;
+    line-height: 20px;
+    color: #001A34;}
+.true{
+    background: #005BFF;
+    border-radius: 3px;
+}
+.false{
+    background: #F2F3F5;
+    border-radius: 3px;
+}
+button{
+border: none;
+outline: none;
+    height: 32px;
+    width: 96px;
+
+}
+.outBasket{
+    font-size: 14px;
+line-height: 18px;
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.inBasket{
+    font-size: 14px;
+line-height: 18px;
+text-align: center;
+color: #005BFF;
+}
+.star{
+    height: 15px;
+    width: 15px;
+}
+.report{
+    font-size: 14px;
+line-height: 18px;
+
+
+
+color: #808D9A;
+
+}

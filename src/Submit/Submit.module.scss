@@ -1,0 +1,100 @@
+.container {
+    height: 281px;
+    width: 696px;
+    background: #F2F3F5;
+    position: relative;
+}
+
+.order {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    position: absolute;
+    left: 24px;
+    top: 24px;
+}
+
+.amountOrder {
+    position: absolute;
+    left: 24px;
+    top: 66px;
+    font-size: 16px;
+    line-height: 20px; font-weight: 700;
+}
+
+.price {
+    position: absolute;
+    top: 66px;
+    right: 24px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.devideLine {
+    position: absolute;
+    height: 1px;
+    width: 648px;
+    background-color: rgba(0, 26, 52, 0.163844);
+    left: 23px;
+    top: 138px;
+    text-align: center;
+}
+
+.sale {
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    top: 102px;
+    left: 24px;
+}
+
+.saleCount {
+    position: absolute;
+    top: 102px;
+    right: 24px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+
+    text-align: right;
+
+    color: #F91155;
+}
+.Total{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    position: absolute;
+    left: 24px;
+    top: 155px;
+}
+.TotalCost{
+    position: absolute;
+    right: 24px;
+    top: 155px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.delivery{
+    position: absolute;
+    left:24px;
+    bottom: 24px;
+    font-size: 16px;
+line-height: 20px;
+color: #808D9A;
+}
+.buttonSubmit{
+    position: absolute;
+    right: 24px;
+    bottom: 20px;
+    height: 48px;
+    width: 289px;
+    background-color: #005BFF;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+line-height: 20px;
+text-align: center;
+}

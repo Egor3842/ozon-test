@@ -1,0 +1,68 @@
+.container {
+    height: 60 px;
+    width: 1024 px;
+    text-align: center;
+    position: relative;
+
+
+.icon {
+    color: #005BFF;
+    font-weight: 800;
+    height: 24px;
+    font-size: 34px;
+    position: absolute;
+    left: 0%;
+    
+    top: 0%;
+    bottom: 0.35%;
+}
+.circle{
+    position: absolute;  
+    top:-5px;
+    left: 12px;
+    height: 11px;
+    width: 15px;
+    background-color: #F91155;
+    border-radius: 8px;
+    font-size: 8px;
+    color:white;
+}
+
+ul {
+    position: absolute;
+    left: calc(25% - 59px/2);
+    right: 250px;
+
+}
+
+ul li {
+    letter-spacing: 0.68px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 16px;
+    color: #808D9A;
+    display: inline-block;
+    margin-left: 8px;
+
+
+}
+
+.catalog {
+    color: black;
+    font-weight: 700;
+}
+
+img {
+    height: 18px;
+    width: 17px;
+
+
+}
+
+.buy {
+    position: absolute;
+    left:951px;
+    top:20px;
+}
+
+}

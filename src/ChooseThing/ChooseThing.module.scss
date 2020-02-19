@@ -1,0 +1,53 @@
+.container{
+    width: 695px;
+    height: 50px;
+    position: absolute;
+background: #F2F3F5;
+    top:122px;
+}
+label{
+   position: relative;
+   top:14px;
+   left:15px;
+}
+label input {
+    display: none;
+  }
+  
+label span {
+    height: 12px;
+    width: 12px;
+    border: 1px solid gray;
+    display: inline-block;
+    position: relative;
+    background-color:#FFF;
+    border-radius:2px;
+    padding:3px;
+    background-color: blue;
+  }
+  [type=checkbox]:checked + span:before {
+    content: '\2714';
+    font-size:17px;
+    color:white;
+    position: absolute;
+    top:-5px;
+    left:2px;
+  }
+.chooseAll{
+    font-size: 14px;
+line-height: 18px;
+position: absolute;
+left: 45px;
+top: 15px;
+
+}
+.delete{
+font-size: 14px;
+line-height: 18px;
+position: absolute;
+left:536px;
+top: 15px;
+color: #F91155;
+}
+
+
